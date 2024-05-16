@@ -46,6 +46,29 @@ header {
     color: black;
 }
 
+@media screen and (min-width: 600px) {
+        header {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+        }
+
+        .name {
+            margin-bottom: 0;
+        }
+
+        #nav-items {
+            width: 50%;
+        }
+
+        .social-media {
+            margin-left: auto;
+            margin-right: auto;
+            
+            width: 50%;
+        }
+}
+
 footer {
     padding: 16px;
     background-color: var(--primary-color);
@@ -70,3 +93,4 @@ footer {
 .info p {
     margin: 5px 0;
 }
+
