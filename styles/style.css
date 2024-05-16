@@ -4,10 +4,18 @@
     --primary-background: #a5a5a5;
 }
 
+body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 header {
-    background-color: var(--primary-background);
+    background-color: var(--primary-color);
     text-align: center;
-    padding: 6px;
+    padding: 16px;
 }
 
 .logo a img {
@@ -15,7 +23,7 @@ header {
 }
 
 .name {
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .coder-text {
@@ -30,6 +38,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
 }
 
 #nav-items a {
@@ -37,7 +46,27 @@ header {
     color: black;
 }
 
-body {
-    margin: 0;
+footer {
+    padding: 16px;
+    background-color: var(--primary-color);
+    text-align: center;
 }
 
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: #1C3C5C;
+    margin-bottom: 24px;
+}
+
+.info {
+    color: #1C3C5C;
+}
+
+.info p {
+    margin: 5px 0;
+}
