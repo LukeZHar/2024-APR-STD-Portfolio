@@ -10,3 +10,11 @@ The header component has a logo and name of the company along with the nav bar. 
 
 ### Footer
 The Footer component has links to linkedin, github and facebook, and the address and phone number.
+
+## Pages
+
+### Home
+The home page displays an image and some random text for now.
+
+## Services
+The services page shows the services provided by the company with an image and title of the service.
