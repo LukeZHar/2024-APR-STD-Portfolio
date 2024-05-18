@@ -16,5 +16,9 @@ The Footer component has links to linkedin, github and facebook, and the address
 ### Home
 The home page displays an image and some random text for now.
 
-## Services
+### Services
 The services page shows the services provided by the company with an image and title of the service.
+
+### About 
+The about page utilises CSS Grid to some information about the company 
+
